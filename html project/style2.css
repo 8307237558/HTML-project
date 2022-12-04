@@ -1,0 +1,45 @@
+/* .veg{
+    display: inline-flex;
+}
+.fruit{
+    display: inline-flex;
+    margin: 40px;
+} */
+h2{ height: 30px;
+    background-color: rgb(174, 93, 93);
+}
+.organic{
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+
+.mainVeg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+}
+img{
+    
+    width: 150px;
+    height: 150px;
+}
+.CartAdd:hover{
+     font-size: larger;
+    }
+
+.CartAdd{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.dairy{
+    background-color: brown;
+    
+}

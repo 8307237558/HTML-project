@@ -1,0 +1,63 @@
+*{
+    background: 100%;
+    /* background-repeat: no-repeat; */
+    margin: 0px;
+    /* background-size: 100%; */
+    /* background-attachment: fixed; */
+    overflow-x: hidden;
+     overflow-y: hidden; 
+}
+.circle{
+    border-radius: 50%;
+    
+}
+.Form-design{
+    width: 30%;
+    top: 30%;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    /* background-color: rgb(175, 187, 86); */
+    /* background-image: url('BackgroundLoginDiv.jpg'); */
+    /* background-size: cover; */
+    /* background-position: top; */
+    background-color: rgb(219, 183, 116);
+    z-index: 1;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 5px;
+}
+
+.login{
+    margin: 20px;
+
+}
+
+.submit{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    margin-bottom: 30px;
+    margin-top: 3%;
+    left: 35%;
+    
+    }
+    .csssubmit{
+        /* cursor: pointer; */
+        background-color: rgb(58, 178, 211);
+        border-radius: 10px;
+        height: 30px;
+        color: white;
+    }
+    .csssubmit:hover{
+        cursor: pointer;
+        background-color: rgb(50, 122, 216);
+        border-radius: 10px;
+        height: 30px;
+    }
+    .Box{
+        margin-left: 40px;
+    }
+    .Box1{
+        margin-left: 25px;
+    }
